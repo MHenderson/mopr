@@ -1,0 +1,33 @@
+---
+output:
+  md_document:
+    variant: markdown_github
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# mopr
+
+Parse the output of Minion (<http://minion.sourceforge.net>).
+
+## Example
+
+### Default options
+
+### `--noprintsols --findallsols`
+
+```{r example}
+library(mopr)
+
+cat(paste(out1, collapse = "\n"))
+
+parseMinionOut(out1, options = "--noprintsols --findallsols")
+```

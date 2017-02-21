@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "---\noutput:\n  md_document:\n    variant: markdown_github\n---\n\n<!-- README.md is generated from README.Rmd. Please edit that file -->\n\n```{r, echo = FALSE}\nknitr::opts_chunk$set(\n  collapse = TRUE,\n  comment = \"#>\",\n  fig.path = \"README-\"\n)\n```\n\n# mopr\n\nParse the output of Minion (<http://minion.sourceforge.net>).\n\n## Example\n\n### Default options\n\n### `--noprintsols --findallsols`\n\n```{r example}\nlibrary(mopr)\n\ncat(paste(out1, collapse = \"\\n\"))\n\nparseMinionOut(out1, options = \"--noprintsols --findallsols\")\n```\n",
+    "created" : 1487673249626.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3926494044",
+    "id" : "BB0CAE9B",
+    "lastKnownWriteTime" : 1487684471,
+    "last_content_update" : 1487684471161,
+    "path" : "~/workspace/mopr/README.Rmd",
+    "project_path" : "README.Rmd",
+    "properties" : {
+        "marks" : "<:21,-1\n>:21,0"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}
