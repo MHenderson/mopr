@@ -1,0 +1,18 @@
+context("parseMinionOut")
+
+test_that("parsing Minion output works", {
+  pout <- parseMinionOut(out1, options = "--noprintsols --findallsols")
+  expect_equal(pout$`Parsing Time`, 0)
+  expect_equal(pout$`Setup Time`, 0)
+  expect_equal(pout$`First Node Time`, 0)
+  expect_equal(pout$`Initial Propagate`, 0)
+  expect_equal(pout$`First node time`, 0)
+  expect_equal(pout$`Solve Time`, 0)
+  expect_equal(pout$`Total Time`, 0)
+  expect_equal(pout$`Total System Time`, 0.000868)
+  expect_equal(pout$`Total Wall Time`, 0.000965)
+  expect_equal(pout$`Maximum RSS (kB)`, 968)
+  expect_equal(pout$`Total Nodes`, 23)
+  expect_equal(pout$`Problem solvable?`, "yes")
+  expect_equal(pout$`Solutions Found`, 12)
+})
