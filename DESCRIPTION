@@ -1,7 +1,7 @@
 Package: mopr
 Type: Package
 Title: Minion Output Parsing in R
-Version: 0.1.0
+Version: 0.1.0.9000
 Authors@R: person("Matthew", "Henderson", email = "matthew.james.henderson@gmail.com",
                   role = c("aut", "cre"))
 Description: Parse the output from Minion.

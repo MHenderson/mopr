@@ -4,7 +4,7 @@
 #'
 #' @return List of data.frames containing the parsed results.
 #' @export
-parseMinionOut <- function(out, options = c("findallsols", "noprintsols")) {
+parseMinionOut <- function(out, options) {
   begin <- grep("Parsing Time:", out)
   end <- grep("Solutions Found:", out)
   tco <- textConnection(out[begin:end])
