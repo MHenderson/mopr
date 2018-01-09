@@ -13,6 +13,6 @@ test_that("parsing Minion output works", {
   expect_equal(pout$`Total Wall Time`, 0.004928)
   expect_equal(pout$`Maximum RSS (kB)`, 1496)
   expect_equal(pout$`Total Nodes`, 690)
-  expect_equal(pout$`Problem solvable?`, "no")
+  expect_equal(pout$`Problem solvable?`, FALSE)
   expect_equal(pout$`Solutions Found`, 0)
 })
