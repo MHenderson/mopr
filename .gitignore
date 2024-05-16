@@ -2,3 +2,6 @@
 .Rhistory
 .RData
 .Ruserdata
+mopr.Rcheck/
+mopr*.tar.gz
+mopr*.tgz
