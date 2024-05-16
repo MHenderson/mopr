@@ -15,4 +15,3 @@ List of data.frames containing the parsed results.
 \description{
 Parse the output from Minion
 }
-
