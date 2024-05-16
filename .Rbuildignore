@@ -3,3 +3,6 @@
 ^README\.Rmd$
 ^README-.*\.png$
 ^data-raw$
+^mopr\.Rcheck$
+^mopr.*\.tar\.gz$
+^mopr.*\.tgz$
